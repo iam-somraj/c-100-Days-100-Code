@@ -1,0 +1,8 @@
+Write a program to input two numbers from user and print their Sum and Average ?
+
+#include <stdio.h>
+
+void main()
+{
+
+}
