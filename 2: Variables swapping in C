@@ -1,1 +1,22 @@
+#include <stdio.h>
 
+void main()
+{
+    int a,b,c;
+    printf("Enter the two digits:");
+    scanf("%d %d", &a, &b);
+    c=a;
+    a=b;
+    b=c;
+    
+    printf("Swapping the number A: %d \n", a);
+    printf("Swapping the number B: %d \n", b);
+    
+    //without the variable
+    a=a+b;
+    b=a-b;
+    a=a-b;
+    
+    printf("Swapping the number A: %d \n", a);
+    printf("Swapping the number B: %d \n", b);
+}
