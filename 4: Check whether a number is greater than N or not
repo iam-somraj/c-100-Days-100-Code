@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+void main()
+{
+    int n,num;
+    n=10;
+    
+    printf("Enter a number:");
+    scanf("%d", &num);
+    
+    if(n>num)
+    {
+        printf("The number is smaller than N");
+    }
+    else
+    {
+        printf("The number is greater than N");
+    }
+}
