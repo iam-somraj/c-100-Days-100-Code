@@ -1,1 +1,26 @@
+#include <stdio.h>
+#include <ctype.h>
 
+void main()
+{
+    char ch;
+    printf("Enter a character:");
+    scanf("%c", &ch);
+    
+    if(isalpha(ch))
+    {
+        if(isupper(ch))
+        {
+            ch=tolower(ch);
+        }
+        else
+        {
+            ch=toupper(ch);
+        }
+        printf("Toggled case: %c", ch);
+    }
+    else
+    {
+        printf("'%c' is not an alphabetic input.", ch);
+    }
+}
