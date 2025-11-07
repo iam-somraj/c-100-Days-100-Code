@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main()
+{
+    int n;
+    int ev = 0, od = 0;
+
+    printf("Enter the range: ");
+    scanf("%d", &n);
+    
+    for(int i = 1; i <= n; i++)
+    {
+        if(i % 2 == 0)
+            ev += i;
+        else
+            od += i;
+    }
+    
+    printf("Sum of the even numbers: %d\n", ev);
+    printf("Sum of the odd numbers: %d\n", od);
+
+    return 0;
+}
