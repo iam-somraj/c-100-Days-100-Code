@@ -3,7 +3,6 @@
 int main() {
     int a = 5, b = 10, temp;
 
-    // Swapping values of a and  b
     temp = a;
     a = b;
     b = temp;
@@ -18,7 +17,6 @@ int main() {
 int main() {
     int a = 5, b = 10;
 
-    // Arithmetic operations to swap values
     a = a + b;
     b = a - b;
     a = a - b;
