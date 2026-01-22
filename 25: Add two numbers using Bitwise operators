@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+    int a, b, sum, carry;
+
+    printf("Enter two integers: ");
+    scanf("%d %d", &a, &b);
+
+    while (b) {
+        carry = a & b;
+
+        a = a ^ b;
+        b = carry << 1;
+    }
+  
+    printf("Sum = %d\n", a);
+    return 0;
+}
