@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+void checkEvenOdd(int N) {
+  
+    if (N & 1) {
+        printf("Odd\n");
+    }
+    else {
+        printf("Even\n");
+    }
+}
+
+int main() {
+    int N = 7;
+  	checkEvenOdd(N);
+    return 0;
+}
